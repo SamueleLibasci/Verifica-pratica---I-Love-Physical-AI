@@ -13,9 +13,11 @@ from componente import Componente
         def peso_componenti(self) -> float:
             tot = 0.0
             for componente in self.componenti:
-                tot += componente.peso
+                tot += componente.peso_kg
             
         def aggiungi_componente
+        
+        #completamento classe robot
         
         
             
