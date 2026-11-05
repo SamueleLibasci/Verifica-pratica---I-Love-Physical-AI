@@ -10,6 +10,12 @@ from componente import Componente
             self.stato = stato
             self.componenti: list[componente]
             
+        def peso_componenti(self) -> float:
+            tot = 0.0
+            for componente in self.componenti:
+                tot += componente.peso
+            
+        def aggiungi_componente
         
         
             
